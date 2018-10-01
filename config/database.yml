@@ -1,0 +1,27 @@
+default: 
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  password: 12345
+  username: postgres
+development: 
+  adapter: postgresql
+  database: todo_development
+  encoding: unicode
+  host: localhost
+  password: 12345
+  username: postgres
+production: 
+  adapter: postgresql
+  database: todo_production
+  encoding: unicode
+  host: localhost
+  password: 12345
+  username: postgres
+test: 
+  adapter: postgresql
+  database: todo_test
+  encoding: unicode
+  host: localhost
+  password: 12345
+  username: postgres
